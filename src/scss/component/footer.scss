@@ -1,0 +1,113 @@
+@charset "utf-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div{ margin:0; padding:0; }
+fieldset, img { border:none; }
+address, caption, code, th, em, i, b, strong{ font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+a { color:#666; text-decoration:none; }
+
+footer{
+    width: 1246px;
+    height:253px ;
+    margin: 0 auto;
+  
+}
+footer .footer_help{
+    background: #ededed;
+    width: 1246px;
+}
+footer .footer_p_one{
+    width: 1246px;
+    height: 30px;
+   
+}
+footer .footer_p_one span{
+    display: inline-block;
+    margin-top:4px ;
+    margin-left: 25px;
+    font-size: 15px;
+    width: 100px;
+    height: 15px;
+    background:url("../static/image/bj_4.png") no-repeat ;
+    background-position: 80px -81px;
+}
+footer .footer_toggle_box{
+    display: none;
+}
+footer .footer_nav{
+    height: 154px;
+    width: 1246px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer_nav dl{
+    width: 133px;
+    height: 135px;
+    margin-top: 16px;
+   
+}
+footer .footer_nav dl:nth-child(1){
+    margin-left: 33px;
+}
+footer .footer_nav dl dt{
+    width: 100px;
+    padding-left: 33px;
+    background: url("../static/image/bj3.png") no-repeat;
+    background-position: 4px 2px;
+    font-size: 20px;
+}
+footer .footer_nav dl:nth-child(6) dt{
+    background:#ededed;
+}
+footer .footer_nav dl dd{
+    width: 102px;
+    padding-left: 33px;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 6px;
+}
+
+footer .footer_line{
+    display: inline-block;
+    width: 1246px;
+    margin-top:12px ;
+    border-top: 1px solid #d5d5d5;
+}
+
+footer .footer_details{
+    width: 1246px;
+    height: 64px;
+    margin-top: 18px;
+    line-height: 25px;
+    font-size: 14px;
+    position: relative;
+}
+footer .footer_phone{
+    width: 370px;
+    height: 14px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+footer .footer_message{
+    width: 370px;
+    height: 64px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 14px;
+}
+footer .footer_wechat{
+    width: 94px;
+    height: 64px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #626262;
+}
+footer .footer_wechat .footer_wechat_icon{
+    width: 40px;
+    height: 35px;
+    background: url("../static/image/bj_2.png") no-repeat;
+    background-position: 0px -56px;
+    margin-top:8px;
+    margin-left: 10px;
+}
