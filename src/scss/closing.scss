@@ -1,0 +1,371 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+
+
+main{
+    width: 1246px;
+    height: 2152px;
+    margin: 0px auto;
+    position: relative;
+}
+main .closing_hade{
+    width:1246px ;
+    border-top: 1px dashed #ccc;
+    color:#909090;
+}
+
+main .closing_hade .closing_hade_p {
+    width: 100px;
+    height: 27px;
+    margin: 0 530px;
+    font-size: 16px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: -12px;
+}
+main .closing_info{
+    width: 1220px;
+    height:2038px;
+    margin-left:12px;
+    margin-top: 42px; 
+}
+main .closing_info .closing_ps{
+    width: 1220px;
+    height: 104px;
+}
+main .closing_info .closing_ps p{
+    width: 1202px;
+    height: 28px;
+    padding-left: 18px;
+    border-top:1px solid  #d6d5d5;
+    border-bottom: 1px solid #d6d5d5;
+    padding-top: 6px;
+    font-size: 16px; 
+    color: #626262;
+}
+main .closing_info .closing_ps .closing_field{
+    margin: 22px 30px;
+    font-size: 13px;
+}
+main .closing_info .closing_souhuo{
+    width: 1220px;
+    height: 592px;
+}
+main .closing_info .closing_souhuo p{
+    width: 1202px;
+    height: 28px;
+    padding-left: 18px;
+    border-top:1px solid  #d6d5d5;
+    border-bottom: 1px solid #d6d5d5;
+    padding-top: 6px;
+    font-size: 16px; 
+    color: #626262;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info{
+    width: 454px;
+    height: 472px;
+    margin-left: 38px;
+    margin-top: 12px;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info h3{
+    height: 20px;
+    font-size: 18px;
+    color: #87d0e3;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info dl{
+    width: 454px;
+    height: 69px;
+    margin-top: 14px;
+    position: relative;
+} 
+main .closing_info .closing_souhuo .closing_souhuo_info dl:nth-child(3){margin-top: 0;}  
+main .closing_info .closing_souhuo .closing_souhuo_info dl dt{font-size: 13px;color: #626262;}
+main .closing_info .closing_souhuo .closing_souhuo_info dl dt span{
+    position: absolute;
+    top:2px;
+    margin-left: 4px;
+    color: red;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info dl dd input{
+    height: 40px;
+    margin-top: 5px;
+    width: 450px;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info dl dd input:focus {
+    outline:none;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info .closing_dinghuo{
+    height: 105px;
+    widows: 454px;
+    margin-top: 25px;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info .closing_dinghuo dl{
+    margin-bottom: 0px;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info .closing_dinghuo p{
+    width: 96px;
+    height: 16px;
+    float: right;
+    font-size: 12px;
+    color: #87d0e3;
+    border: none;
+}
+main .closing_info .closing_souhuo .closing_souhuo_info .closing_dinghuo dl{
+    float: left;
+}
+main .closing_info button{
+    width: 214px ;
+    height: 56px;
+    margin-top: 12px;
+    background: #ffff00;
+    border: none;
+}
+main .closing_info button:focus {
+    outline:none;
+}
+main .closing_info .closing_riqi{
+    width:1220px ;
+    height: 123px;
+    margin-top: 20px;
+}
+main .closing_info .closing_riqi p{
+    width: 1202px;
+    height: 28px;
+    padding-left: 18px;
+    border-top:1px solid  #d6d5d5;
+    border-bottom: 1px solid #d6d5d5;
+    padding-top: 6px;
+    font-size: 16px; 
+    color: #626262; 
+}
+main .closing_info .closing_riqi input{
+    width: 266px;
+    height: 42px;
+    margin-top: 22px;
+}
+main .closing_info .closing_riqi input:focus {
+    outline:none;
+}
+main .closing_info .closing_riqi select{
+    width: 73px;
+    height: 40px;
+    margin-left: 20px;
+}
+main .closing_info .closing_riqi span{
+    margin-left: 20px;
+    font-size: 15px;
+}
+main .closing_info .closing_zhifu{
+    width: 1220px;
+    height: 178px;
+}
+main .closing_info .closing_zhifu p{
+    width: 1202px;
+    height: 28px;
+    padding-left: 18px;
+    border-top:1px solid  #d6d5d5;
+    border-bottom: 1px solid #d6d5d5;
+    padding-top: 6px;
+    font-size: 16px; 
+    color: #626262; 
+}
+main .closing_info .closing_zhifu  .closing_zhifuTop{
+    width: 957px;
+    height: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+main .closing_info .closing_zhifu  .closing_zhifuCenter{
+    width: 957px;
+    height: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+main .closing_info .closing_zhifu  .closing_zhifuBottom{
+    width: 957px;
+    height: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+main .closing_info .closing_jieshuan p{
+    width: 1202px;
+    height: 28px;
+    padding-left: 18px;
+    border-top:1px solid  #d6d5d5;
+    border-bottom: 1px solid #d6d5d5;
+    padding-top: 6px;
+    font-size: 16px; 
+    color: #626262;
+}
+main .closing_info .closing_jieshuan table{
+    width:1177px;
+    height: 415px;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+
+main .closing_info .closing_jieshuan table tbody tr th{
+    width: 221px;
+    height: 52px;
+}
+main .closing_info .closing_jieshuan table tbody tr th:nth-child(1){
+    width: 325px;
+    height: 52px;
+}
+main .closing_info .closing_jieshuan table tbody tr th span{
+    display: inline-block;
+    width: 182px;
+    height: 35px;
+    background: #ededed;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 17px;
+    margin-right: 10px;
+}
+main .closing_info .closing_jieshuan table tbody tr th:nth-child(5) span{ margin-right:0px}
+main .closing_info .closing_jieshuan table tbody tr th:nth-child(1) span{
+    width: 287px;
+}
+main .closing_info .closing_jieshuan table tbody tr td dl{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+main .closing_info .closing_jieshuan table tbody tr td dl dt{
+    width: 82px;
+    height: 84px;
+    background: rgb(48, 44, 53);
+    margin-right: 12px;
+}
+main .closing_info .closing_jieshuan table tbody tr td{
+    width: 209px;
+    padding-left:12px; 
+    font-size: 12px;
+}
+main .closing_info .closing_jieshuan table tbody tr td:nth-child(2){ 
+    font-size: 14px;
+}
+main .closing_info .closing_jieshuan table tbody tr td:nth-child(5){ 
+    font-size: 17px;
+}
+main .closing_info .closing_jieshuan table tbody tr td:nth-child(1){
+    padding-left:0px; 
+}
+
+main .closing_info .closing_zhifu_fw{
+    width: 624px;
+    height: 368px;
+    float: right;
+    position: relative;
+}
+main .closing_info .closing_zhifu_fw .closing_zhifu_jies{
+    border: none;
+    width:624px ;
+    height: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 30px;
+    font-size: 15px; 
+}
+main .closing_info .closing_zhifu_fw .closing_zhifu_jies label b{
+    font-size: 20px;
+    color: #87d0e3;
+}
+main .closing_info .closing_zhifu_fw button{
+    width: 214px;
+    height: 58px;
+    background: #ffff00;
+    position: absolute;
+    top:298px;
+    right: 0px;
+}
+
+main .closing_info .closing_youhui{
+    width: 534px;
+    margin-top:112px;
+}
+main .closing_info .closing_youhui .closing_youhui_p{
+    width: 74px;
+    height: 18px;
+    background: url(../static/image/bj_4.png) no-repeat 52px -94px;
+    background-size: 55px;
+    font-size: 15px;
+    margin-left: 18px;
+}
+main .closing_info .closing_youhui .closing_youhui_nr{
+    width: 534px;
+    height: 170px;
+    margin-left: 18px;
+}
+main .closing_info .closing_youhui .closing_youhui_nr p:nth-child(1){
+    margin-top: 26px;
+    font-size: 14px;
+    margin-left: 26px;
+}
+main .closing_info .closing_youhui .closing_youhui_nr p{
+    margin-top: 18px;
+    font-size: 14px;
+    margin-left: 26px;
+}
+main .closing_info .closing_youhui .closing_youhui_nr p input{
+    width: 202px;
+    height: 40px;
+}
+main .closing_info .closing_youhui .closing_youhui_nr p a{
+    display: inline-block;
+    width: 89px;
+    height: 34px;
+    background: #ff0;
+    text-align: center;
+    padding-top: 14px;
+    margin-left: 18px;
+}
+main .closing_info .closing_fapiao{
+    width: 534px;
+    height:237px;
+    margin-top: 10px;
+}
+main .closing_info .closing_fapiao p{
+    width: 74px;
+    height: 18px;
+    background: url(../static/image/bj_4.png) no-repeat 52px -94px;
+    background-size: 55px;
+    font-size: 15px;
+    margin-left: 18px;
+}
+main .closing_info .closing_fapiao .closing_fapiao_box{
+    width: 534px;
+    height: 215px;
+    margin-left: 18px;
+}
+main .closing_info .closing_fapiao .closing_fapiao_nr{
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 18px;
+}
+main .closing_info .closing_fapiao .closing_item{
+    margin-top: 18px;
+    font-size: 14px;
+    margin-left: 18px;
+}
+main .closing_info .closing_fapiao .closing_kfapiao{
+    margin-top: 18px;
+    font-size: 14px;
+    margin-left: 18px;
+}
+main .closing_info .closing_fapiao .closing_kfapiao input{
+    width: 202px;
+    height: 38px;
+}
+main .closing_info .closing_fapiao button{
+    width: 86px;
+    height: 38px;
+    margin-top: 30px;
+}

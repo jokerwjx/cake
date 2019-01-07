@@ -4,7 +4,7 @@
 
 main{
     width:1246px ;
-    height: 614px;
+    height: 365px;
     margin: 0 auto;
     position: relative;
 }
@@ -17,30 +17,12 @@ main .register_hade{
 main .register_hade .register_hade_p {
     width: 100px;
     height: 27px;
-    margin: 0 auto;
+    margin: 0 530px;
     font-size: 16px;
     text-align: center;
     background: #fff;
     position: absolute;
     top: -12px;
-    left: 560px;
-}
-main .register_text {
-    width: 182px;
-    height: 20px;
-    font-size: 15px;
-    float: right;
-    margin-right:56px;
-    color: #776277;
-    margin-top: 35px
-}
-main .register_text i img{margin-top: 2px;}
-main .register_text i{float: left;}
-main .register_text p{
-    width: 140px;
-    float: left;
-    margin-left: 4px;
-    color: #87d0e3;
 }
 main form{
     width:389px ;
@@ -68,34 +50,60 @@ main form dl dd{
     height: 52px;
     float: left;
 }
+main form dl:nth-child(2) input{
+    width: 180px;
+    height: 52px;
+    float: left;
+}
+main form dl:nth-child(2) a{
+    display: inline-block;
+    width: 93px;
+    height: 38px;
+    float: left;
+    background: #ededed;
+    padding-top: 16px; 
+    text-align: center;
+    font-size: 14px
+}
 main form dl dd input{
     width: 273px;
     height: 50px;
     border: none;
     background: #ededed;
+    font-size: 15px;
 }
 main form dl dd input:focus {
     outline:none;
 }
-main form button{
+main form .login_bt{
     width:389px ;
+    height: 52px;
+    margin: 0 auto;
+}
+main form button{
+    width:245px ;
     height: 52px;
     margin: 0 auto;
     background:#87d0e3 ;
     color: #fff;
     border: none;
-    margin-top: 10px;
+    float: left;
+    margin-right: 14px;
 }
 main form button:focus {
     outline:none;
 }
-main form .register_regsetp{
-    margin-left: 100px;
-    font-size: 12px;
-    height: 16px;
+main form a{
+    display:block;
+    width:128px ;
+    height: 36px;
+    background: #ededed;
+    float: left;
+    padding-top: 16px; 
+    text-align: center;
+    font-size: 14px;
 }
-main form .register_regsetp:hover a{
-    display: inline-block;
+main form a:hover span{
     color: #87d0e3;
-    border-bottom:1px solid #87d0e3;
+    border-bottom:1px solid #87d0e3; 
 }
