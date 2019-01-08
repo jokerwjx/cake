@@ -19,30 +19,26 @@
         </div>
         <form>
             <dl>
+                <dt>用户名</dt>
+                <dd><input type="text" name="username" id="username"></dd>
+            </dl>
+            <dl>
                 <dt>手机号</dt>
-                <dd><input type="text"></dd>
-            </dl>
-            <dl>
-                <dt>验&nbsp;证&nbsp;码</dt>
-                <dd><input type="text"></dd>
-            </dl>
-            <dl>
-                <dt>短信验证码</dt>
-                <dd><input type="text"></dd>
+                <dd><input type="text" name="phone" id="phone"></dd>
             </dl>
             <dl>
                 <dt>密&nbsp;码</dt>
-                <dd><input type="password"></dd>
+                <dd><input type="password" name="password" id="password"></dd>
             </dl>
             <dl>
                 <dt>确认密码</dt>
-                <dd><input type="password"></dd>
+                <dd><input type="password" name="password2"></dd>
             </dl>
             <div class="register_regsetp">
                 <input type="checkbox">
                 <a href="javascript:;" target="_blank">我已阅读并接受“服务条款”</a>
             </div>
-            <button>注册</button>
+            <button id="regBtn">注册</button>
         </form>
     </main>
     <script type="text/javascript" src="/libs/require/require.js" data-main="/js/register.js"></script>

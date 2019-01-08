@@ -1,6 +1,29 @@
 //注册的业务逻辑
 require(["./require.config"],()=>{
-    //引入index需要的模块
+    //引入register需要的模块
     require(["jquery","header","footer"],()=>{
+        //注册的逻辑
+        $("#regBtn").on("click",function(e){
+            //localhost/api/v1/register.php
+            //post
+            //阻止表单默认提交
+            e.preventDefault();
+            $.ajax({
+                url:"http://localhost/api/v1/register.php",
+                type:"post",
+                data:{
+                    name:$("#username").val(),
+                    phone:$("#phone").val(),
+                    password:$("#password").val()
+                },
+               success:function(res){
+                   if(res.res.code){
+                     alert("注册成功，马上去登录");
+                     location.href="/html/login.html"
+                   }
+               },
+               dataType:"json"
+            })
+        })
     })
 })

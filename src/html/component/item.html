@@ -1,0 +1,18 @@
+<main>
+    <ul>
+        <script type="text/html" id="list_template">
+        {{each list item i}}
+    <li>
+        <div class="list_img">
+            <a href="/html/detail.html?id={{item.id}}"><img src="{{item.img}}" /></a>
+        </div>
+        <div>
+            <p>{{item.title}}</p>
+            <label>不支持7天无理由</label>
+            <b>￥{{item.price}}</b>
+        </div>
+    </li>
+    {{/each}}
+    </script>
+    </ul>
+</main>

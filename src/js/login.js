@@ -2,5 +2,10 @@
 require(["./require.config"],()=>{
     //引入login需要的模块
     require(["jquery","header","footer"],()=>{
+        //ajax登录
+        //当登录成功之后，后端返回用户名
+        //用户名存cooki
+        $.cookie("username",username,{path:"/"});
+        location.href="/"
     })
 })
