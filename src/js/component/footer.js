@@ -11,14 +11,6 @@ define(["jquery"],()=>{
                 })
             })
 
-            $(function(){
-                let $footer_p =$(".footer_p_one"),
-                    $_footer_toggle_box= $(".footer_toggle_box");
-                $footer_p.on("click",function(){
-                    $_footer_toggle_box.toggle();
-                })
-            })
-        }
     }
     return new Footer();
 })
