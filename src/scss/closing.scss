@@ -208,8 +208,11 @@ main .closing_info .closing_jieshuan table{
     height: 415px;
     margin-left: 28px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
-
+main .closing_info .closing_jieshuan table tbody tr{
+    border-bottom: 1px solid #d5d5d5;
+}
 main .closing_info .closing_jieshuan table tbody tr th{
     width: 221px;
     height: 52px;

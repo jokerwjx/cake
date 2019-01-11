@@ -1,9 +1,4 @@
-@charset "utf-8";
-html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div{ margin:0; padding:0; }
-fieldset, img { border:none; }
-address, caption, code, th, em, i, b, strong{ font-style:normal; font-weight:normal; }
-ul, ol { list-style:none; } 
-a { color:#666; text-decoration:none; }
+
 
 footer{
     width: 1246px;
@@ -27,7 +22,7 @@ footer .footer_p_one span{
     font-size: 15px;
     width: 100px;
     height: 15px;
-    background:url("../static/image/bj_4.png") no-repeat ;
+    background:url("/static/image/bj_4.png") no-repeat ;
     background-position: 80px -81px;
 }
 footer .footer_toggle_box{
@@ -51,7 +46,7 @@ footer .footer_nav dl:nth-child(1){
 footer .footer_nav dl dt{
     width: 100px;
     padding-left: 33px;
-    background: url("../static/image/bj3.png") no-repeat;
+    background: url("/static/image/bj3.png") no-repeat;
     background-position: 4px 2px;
     font-size: 20px;
 }
@@ -106,7 +101,7 @@ footer .footer_wechat{
 footer .footer_wechat .footer_wechat_icon{
     width: 40px;
     height: 35px;
-    background: url("../static/image/bj_2.png") no-repeat;
+    background: url("/static/image/bj_2.png") no-repeat;
     background-position: 0px -56px;
     margin-top:8px;
     margin-left: 10px;

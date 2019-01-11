@@ -1,0 +1,183 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+main{
+    width: 1246px;
+    margin: 0 auto;
+}
+main .detail_nr{
+    width: 1246px;
+    height: 611px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+main .detail_nr .detail_right{
+    width: 611px;
+    height: 611px;
+    float: left;
+}
+main .detail_nr .detail_left{
+    width:608px;
+    height:610px ;
+    float: left;
+    margin-right: 25px;
+}
+main .detail_nr .detail_left img{
+    width: 100%;
+    height: 100%;
+}
+main .detail_nr .detail_top img{
+    width: 100%;
+    height: 100%;
+}
+main .detail_nr .detail_right .detail_top{
+    width: 611px;
+    height: 299px;
+}
+main .detail_nr .detail_right .detail_bottom{
+    width: 611px;
+    height: 313px;
+}
+main .detail_nr .detail_right .detail_bottom .detail_title{
+    width: 608px;
+    height: 93px;
+}
+main .detail_nr .detail_right .detail_bottom .detail_title p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2093cc;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+main .detail_nr .detail_right .detail_bottom .detail_title span{
+    color: #8193cc;
+}
+main .detail_nr .detail_right .detail_bottom .detail_title b{
+    float: right;
+    font-size: 20px;
+    color: #2093cc;
+    font-weight: 600;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an{margin-top: 30px;}
+main .detail_nr .detail_right .detail_bottom .detail_an dl{
+    width: 297px;
+    height: 65px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    background: #87d0e3;
+    margin-top: 30px;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an dl dt{
+    margin-top: 22px;
+    margin-left: 25px;
+    color: #fff;
+    float: left;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an dl dd{
+    float: left;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an dl dd i{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    font-size: 23px;
+    border: 1px solid;
+    color: #fff;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an dl dd span{
+    width: 35px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    background: #fff;
+    color:#87d0e3;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an div{
+    width: 297px;
+    height: 65px;
+    float: left;
+    margin-bottom: 7px;
+    background: #87d0e3;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an div a{
+    display: block;
+    text-align: center;
+    margin-top: 22px;
+    color: #fff;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an .detail_sc{
+    margin-left: 10px;
+    margin-left: 17px;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an .detail_gm{
+    background: #ffff00;
+    margin-top: 30px;
+    margin-left: 7px;
+}
+main .detail_nr .detail_right .detail_bottom .detail_an .detail_gm a{
+    color: #627a52;
+}
+main .detail_img_noe{
+    width: 1246px;
+    height: 1905px;
+}
+main .detail_img{
+    width: 1246px;
+    height: 914px;
+}
+main .detail_img_noe img{
+    width: 100%;
+    height: 100%;
+}
+main .detail_img img{
+    width: 100%;
+    height: 100%;
+}
+main .detail_box{
+    display: flex;
+    margin-top: 15px;
+}
+main .detail_gdt{
+    width: 407px;
+    height: 404px;
+    margin-bottom: 15px;
+    margin-right: 12px;
+}
+main .detail_gdt .detail_imgs{
+    width: 407px;
+    height: 338px;
+}
+main .detail_gdt .detail_imgs img{
+    width: 100%;
+    height: 100%;
+}
+main .detail_gdt  .detail_sjnr{
+    width: 407px;
+    height: 67px;
+    background: #87d0e3;
+}
+main .detail_gdt  .detail_sjnr p{
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+main .detail_gdt  .detail_sjnr label{
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+main .detail_gdt  .detail_sjnr b{
+    float: right;
+    margin-top: 10px;
+    color: #fff;
+    margin-right: 15px;
+}

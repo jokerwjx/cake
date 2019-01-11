@@ -24,5 +24,6 @@ define(["jquery", "template"], ($, template) => {
             })
         })
     }
+
     return new Item();
 })

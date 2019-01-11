@@ -1,4 +1,4 @@
-define(["jquery"],()=>{
+define(["jquery","cookie"],()=>{
     class Header{
         constructor(){
             this.init();
@@ -9,7 +9,17 @@ define(["jquery"],()=>{
                 $("header").load("/html/component/header.html",()=>{
                     resolve();
                 })
+            }).then(()=>{
+                this.login();
             })
+        }
+        login(){
+            var username=$.cookie("username");
+            console.log(username)
+            if(username){
+               $("#login_li").html("欢迎您，");
+               $("#login_li1").html(username);
+            }
         }
     }
     return new Header();

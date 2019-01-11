@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="/css/cart.css" />
+    <script type="text/javascript" src="/libs/require/require.js" data-main="/js/cart.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="cart_hade">
+            <p class="cart_hade_p">购物车</p>
+        </div>
+        <div >
+        <table style="border-collapse:collapse;" id="cart_table">
+            <tr class="cart_head">
+                <th>
+                    商品名称
+                </th>
+                <th>
+                    属性
+                </th>
+                <th>
+                    积分
+                </th>
+                <th>
+                    <span>单价</span>
+                </th>
+                <th>
+                    <span>购买数量</span>
+                </th>
+                <th>
+                    <span>小计</span>
+                </th>
+                <th>
+                    <span>操作</span>
+                </th>
+            </tr>
+            <tbody id="cart_tbody">
+               <!-- <tr>
+                    <td>
+                        <dl>
+                            <dd><input type="checkbox" name="ids" checked="checked"></dd>
+                            <dt></dt>
+                            <dd>玫瑰花园</dd>
+                        </dl>
+                    </td>
+                    <td>14x14cm</td>
+                    <td>240积分</td>
+                    <td>229.00</td>
+                    <td>
+                        <i>-</i>
+                        <span>1</span>
+                        <i>+</i>
+                    </td>
+                    <td>229.00</td>
+                    <td>删除</td>
+                </tr>-->
+            </tbody>
+        </table>
+        <span><a class="cart_jxgw" href="javascript:;">继续购物</a></span>
+        <div class="cart_qx">
+            <span><a href="javascript:;"></a></span>
+            <span><a href="javascript:;"></a></span>
+        </div>
+        <div class="cart_zj">
+            <p class="cart_zj_p">
+                <span>总计:</span>
+                <b class="payprice" style="margin-left: 6px;" id="cart_paypric"></b>
+            </p>
+            <a href="/html/closing.html"><button>下一步</button></a>
+        </div>
+    </div>
+        <span style="color:#627a7a;display:block;margin-top:70px;">更多精彩</span>
+        <div class="cart_box">
+            <div class="cart_gdt">
+                <div class="cart_imgs">
+                    <a href="/html/detail.html?id={{item.id}}"><img src="" /></a>
+                </div>
+                <div class="cart_sjnr">
+                    <p>数据库打算</p>
+                    <label>不支持7天无理由</label>
+                    <b>￥230.00</b>
+                </div>
+            </div>
+            <div class="cart_gdt">
+                <div class="cart_imgs">
+                    <a href="/html/detail.html?id={{item.id}}"><img src="" /></a>
+                </div>
+                <div class="cart_sjnr">
+                    <p>说的不是</p>
+                    <label>不支持7天无理由</label>
+                    <b>￥230.00</b>
+                </div>
+            </div>
+            <div class="cart_gdt">
+                <div class="cart_imgs">
+                    <a href="/html/detail.html?id={{item.id}}"><img src="" /></a>
+                </div>
+                <div class="cart_sjnr">
+                    <p>速度还是给</p>
+                    <label>不支持7天无理由</label>
+                    <b>￥230.00</b>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
